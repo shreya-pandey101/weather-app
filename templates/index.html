@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+</head>
+<body>
+    <h1>
+        Welcome to Weather App!!
+    </h1>
+    <form action="/weather" method="post">
+        <h4>Type your city name below:</h4>
+        <input type="text" name="city">
+        <button type="submit">Submit</button>
+    </form>
+    {{weather_data}}
+</body>
+</html>
