@@ -25,7 +25,8 @@ A simple weather application built using **Python**, **Flask**, **HTML**, and th
 
 ## 📸 Preview
 
-![alt text](<Screenshot 2026-06-27 215933.png>)
+![alt text](<img width="1796" height="860" alt="image" src="https://github.com/user-attachments/assets/183ccc97-330b-48ad-8311-7fc450ecb366" />
+)
 
 ---
 
