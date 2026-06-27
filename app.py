@@ -24,6 +24,9 @@ def weather():
         temp = data['main']['temp']
         return render_template("index.html",weather_data=f"The weather in city {city_name} is {description} with a temperature of {temp}°C")
     else:
-        return "City not found. Please try again."
+        return render_template(
+        "index.html",
+        error="❌ City not found. Please try again."
+    )
 if __name__ == "__main__":
     app.run(debug=True)
