@@ -72,7 +72,6 @@ weather-app/
 │   └── index.html
 │── .env
 │── README.md
-│── requirements.txt
 ```
 
 ---
