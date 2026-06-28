@@ -22,6 +22,7 @@ def weather():
     if data['cod']==200:
         description = data['weather'][0]['description']
         temp = data['main']['temp']
+        
         return render_template("index.html",weather_data=f"The weather in city {city_name} is {description} with a temperature of {temp}°C")
     else:
         return render_template(
