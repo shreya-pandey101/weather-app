@@ -1,6 +1,6 @@
 # 🌦️ Weather App
 
-A simple weather application built using **Python**, **Flask**, **HTML**, and the **OpenWeatherMap API**. The application allows users to search for any city and view its current weather information in real time.
+A simple weather application built using **Python**, **Flask**, **HTML**, **CSS** and the **OpenWeatherMap API**. The application allows users to search for any city and view its current weather information in real time.
 
 ---
 
@@ -8,7 +8,6 @@ A simple weather application built using **Python**, **Flask**, **HTML**, and th
 
 * 🔍 Search weather by city name
 * 🌡️ Displays current temperature
-* 💧 Shows humidity
 * 🌥️ Displays weather conditions
 * ⚡ Fetches real-time weather data using the OpenWeatherMap API
 
@@ -20,12 +19,13 @@ A simple weather application built using **Python**, **Flask**, **HTML**, and th
 * Flask
 * HTML
 * OpenWeatherMap API
+* CSS
 
 ---
 
 ## 📸 Preview
 
-![alt text](<Screenshot 2026-06-27 215933.png>)
+<img width="1796" height="860" alt="Screenshot 2026-06-28 011420" src="https://github.com/user-attachments/assets/5ab2dc35-bdee-4bf2-8da2-ba326f569f59" />
 
 ---
 
@@ -67,10 +67,15 @@ http://127.0.0.1:5000
 
 ```text
 weather-app/
-│── app.py
+│── static/
+│   ├── style.css
+│
 │── templates/
 │   └── index.html
+│
 │── .env
+│── .gitignore
+│── app.py
 │── README.md
 ```
 
@@ -78,7 +83,6 @@ weather-app/
 
 ## 🎯 Future Improvements
 
-* 🎨 Add CSS for a better user interface
 * 📍 Detect user's current location
 * 🌍 5-day weather forecast
 * ⭐ Save favorite cities
