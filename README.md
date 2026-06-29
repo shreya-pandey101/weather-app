@@ -13,7 +13,7 @@ A simple weather application built using **Python**, **Flask**, **HTML**, **CSS*
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * Python
 * Flask
